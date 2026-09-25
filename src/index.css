@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-ivory: #FFF9EC;
+    --bg-cream: #F5E9D0;
+    --text-ink: #27231F;
+    --bengal-red: #8E2638;
+    --bengal-red-hover: #731E2D;
+    --terracotta: #B65F42;
+    --mustard: #D1A52C;
+    --bengal-green: #315443;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--bg-ivory);
+    color: var(--text-ink);
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: 'Playfair Display', 'Noto Serif Bengali', Georgia, serif;
+  }
+
+  .font-bengali {
+    font-family: 'Noto Serif Bengali', serif;
+  }
+}
+
+/* Subtle newspaper / editorial divider */
+.editorial-line {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #B65F42, transparent);
+  opacity: 0.35;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5E9D0;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4C4A8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8E2638;
+}

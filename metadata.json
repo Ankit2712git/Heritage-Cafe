@@ -1,0 +1,6 @@
+{
+  "name": "Heritage Cafe Serampore",
+  "description": "Authentic Kolkata heritage cafe in Serampore featuring a digital Bengali & Continental menu, WhatsApp & Email table reservations, nostalgic photo gallery, and directions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
